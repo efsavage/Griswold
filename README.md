@@ -1,9 +1,9 @@
 Griswold
 ========
 
-A Java library for the Shopify API.
+A Java client/library for the Shopify API.
 
-Note that this library is currently functional, but very incomplete.  There is no timeframe for when all methods will be implemented, but please feel free to send a request.
+Note that this library is currently functional, but very incomplete.  There is no timeframe for when all methods will be implemented, I'm mostly implementing them as I need them, but please feel free to send a request.
 
 ## Disclaimer ##
 

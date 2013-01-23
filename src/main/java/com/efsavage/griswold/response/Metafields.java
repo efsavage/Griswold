@@ -15,7 +15,7 @@
  *   
  *   This product is designed for use with the Shopify API, but is not 
  *   certified, endorsed or sponsored by Shopify.   Eric F. Savage is not 
- *   affiliated with, employed by, or related to Shopify beyond than being a 
+ *   affiliated with, employed by, or related to Shopify beyond being a 
  *   registered partner and satisfied customer.
  *   
  */
@@ -23,9 +23,9 @@ package com.efsavage.griswold.response;
 
 import java.util.List;
 
-import com.efsavage.griswold.model.Metafield;
-
 import lombok.Data;
+
+import com.efsavage.griswold.model.Metafield;
 
 /**
  * Wrapper for "metafields" responses.

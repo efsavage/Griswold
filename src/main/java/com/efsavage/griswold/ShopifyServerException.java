@@ -15,7 +15,7 @@
  *   
  *   This product is designed for use with the Shopify API, but is not 
  *   certified, endorsed or sponsored by Shopify.   Eric F. Savage is not 
- *   affiliated with, employed by, or related to Shopify beyond than being a 
+ *   affiliated with, employed by, or related to Shopify beyond being a 
  *   registered partner and satisfied customer.
  *   
  */
@@ -37,7 +37,7 @@ public class ShopifyServerException extends Exception {
 	 *            The cause of the error.
 	 * @see Exception#Exception(Throwable)
 	 */
-	public ShopifyServerException(Throwable t) {
+	public ShopifyServerException(final Throwable t) {
 		super(t);
 	}
 

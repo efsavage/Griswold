@@ -15,7 +15,7 @@
  *   
  *   This product is designed for use with the Shopify API, but is not 
  *   certified, endorsed or sponsored by Shopify.   Eric F. Savage is not 
- *   affiliated with, employed by, or related to Shopify beyond than being a 
+ *   affiliated with, employed by, or related to Shopify beyond being a 
  *   registered partner and satisfied customer.
  *   
  */
@@ -60,7 +60,7 @@ public interface ShopifyClient {
 	 *             If there was an error on the client, typically a
 	 *             configuration issue.
 	 */
-	List<Product> getProducts(ProductListRequest productListRequest) throws ShopifyServerException, ShopifyClientException;
+	List<Product> getProducts(final ProductListRequest productListRequest) throws ShopifyServerException, ShopifyClientException;
 
 	/**
 	 * Returns a list of the {@link Metafield}s for a {@link Product}.
@@ -75,7 +75,7 @@ public interface ShopifyClient {
 	 *             If there was an error on the client, typically a
 	 *             configuration issue.
 	 */
-	List<Metafield> getProductMetafields(Product product) throws ShopifyServerException, ShopifyClientException;
+	List<Metafield> getProductMetafields(final Product product) throws ShopifyServerException, ShopifyClientException;
 
 	/**
 	 * Returns a list of the {@link Metafield}s for a {@link Product}.
@@ -90,6 +90,6 @@ public interface ShopifyClient {
 	 *             If there was an error on the client, typically a
 	 *             configuration issue.
 	 */
-	List<Metafield> getProductMetafields(String productId) throws ShopifyServerException, ShopifyClientException;
+	List<Metafield> getProductMetafields(final String productId) throws ShopifyServerException, ShopifyClientException;
 
 }
